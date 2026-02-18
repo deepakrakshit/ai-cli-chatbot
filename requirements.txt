@@ -1,0 +1,13 @@
+"""
+AI CLI Chatbot Dependencies
+
+This file lists the Python packages required to run the application.
+Install these using: pip install -r requirements.txt
+
+AUTHOR: Deepak Rakhit
+GITHUB: https://github.com/deepakrakshit
+"""
+
+groq
+python-dotenv
+requests
