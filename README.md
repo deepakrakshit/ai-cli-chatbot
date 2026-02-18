@@ -99,7 +99,7 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_gsk_key_here
 ```
 
-> ⚠️ **Never commit your `.env` file to version control.**
+> ⚠️ **Security Notice:** Never commit your `.env` file or API keys to version control.
 
 ---
 
@@ -132,7 +132,8 @@ Start chatting naturally, or use slash commands for additional functionality.
 
 ```python
 # config.py
-MODEL_NAME = "mixtral-8x7b-32768"  # Switch models easily
+MODEL_NAME = "llama-3.1-8b-instant"  # or another Groq-supported model
+# Refer to Groq’s documentation for currently supported models.
 ```
 
 ### Modify the AI Persona
@@ -157,27 +158,24 @@ Edit the `SYSTEM_PROMPT` in `config.py` to customize the bot’s behavior:
 
 ---
 
-## 🤝 Contributing
+## 🛣️ Future Improvements
 
-Contributions are welcome! 🚀
+This project is primarily a personal learning initiative.  
+Planned enhancements include:
 
-1. Fork the project
-2. Create your feature branch
+- Streaming model responses
+- Conversation summarization for long chats
+- Improved command routing
+- Unit tests for core modules
+- Rich TUI interface
 
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
+Suggestions and feedback are welcome via issues.
 
-   ```bash
-   git commit -m "Add AmazingFeature"
-   ```
-4. Push to the branch
+---
 
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
+## 📜 License
+
+This project is released under the MIT License.
 
 ---
 
