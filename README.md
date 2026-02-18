@@ -60,7 +60,7 @@ Clean separation of concerns (Config, Utils, Services) for maintainability and s
 ### Prerequisites
 
 * Python **3.8+**
-* A **Groq API key** (free tier available)
+* A free-tier **[Groq API key](https://console.groq.com/keys)**
 
 ---
 
